@@ -325,3 +325,48 @@ font-weight: 600;
 .container-copyright span {
   color: #2f86d6;
 }
+
+/* Media Queries for Tablet and Mobile */
+@media screen and (max-width: 1024px) {
+  .limitar-secao {
+    width: 90%;
+  }
+
+  .container-banner img {
+    width: 70%;
+  }
+
+  .container-primeiro-anuncio a {
+    font-size: 1rem;
+  }
+
+  .container-primeiro-anuncio a img {
+    width: 15px;
+  }
+
+  .container-informacoes div {
+    width: 45%;
+  }
+
+  .container-segundo-anuncio h2 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-banner img {
+    width: 80%;
+  }
+
+  .container-primeiro-anuncio a {
+    font-size: 0.8rem;
+  }
+
+  .container-informacoes div {
+    width: 100%;
+  }
+
+  .container-segundo-anuncio h2 {
+    width: 100%;
+  }
+}
